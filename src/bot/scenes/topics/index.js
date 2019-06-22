@@ -1,5 +1,4 @@
-const Markup = require('telegraf/markup');
-const Scene = require('telegraf/scenes/base');
+const { Markup, Scene } = require('micro-bot');
 
 const commandsConsts = require('../../../../constants/bot/commands');
 const sceneConsts = require('../../../../constants/bot/scenes');

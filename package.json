@@ -20,13 +20,12 @@
   "author": "Artem Vergun <asamurai.cartel@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "micro-bot": "^2.5.1",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "immutable": "^3.8.2",
-    "ramda": "^0.25.0",
-    "telegraf": "^3.22.2"
+    "micro-bot": "^2.5.1",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "eslint": "^5.9.0",

@@ -1,6 +1,4 @@
-const Markup = require('telegraf/markup');
-const Scene = require('telegraf/scenes/base');
-const Extra = require('telegraf/extra');
+const { Markup, Scene, Extra } = require('micro-bot');
 
 const buildHtmlMessage = require('../../helpers/buildHtmlMessage');
 const htmlMessageTypes = require('../../../../constants/bot/htmlMessageTypes');

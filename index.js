@@ -1,5 +1,4 @@
-const { Composer, log, session } = require('micro-bot');
-const Stage = require('telegraf/stage');
+const { Composer, Stage, log, session } = require('micro-bot');
 
 const botActionsListener = require('./src/bot/botActionsListener');
 const scenes = require('./src/bot/scenes');
