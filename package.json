@@ -9,10 +9,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "supervisor -x micro-bot index.js",
-    "devStart": "BOT_TOKEN='770736296:AAEwfTu287O-1fbdFhcSvIPGnGKvE_sLnk4' npm run dev",
-    "start": "micro-bot",
-    "deploy": "now -e BOT_TOKEN='750513030:AAExJh6CyQjpmscztITg1uF_dJ56ugK3PPQ' asamurai/dou-event-bot",
-    "now-start": "micro-bot -d ${NOW_URL}",
+    "deploy": "now -e BOT_TOKEN='750513030:AAExJh6CyQjpmscztITg1uF_dJ56ugK3PPQ'",
+    "start": "micro-bot -t 770736296:AAEwfTu287O-1fbdFhcSvIPGnGKvE_sLnk4 index.js",
+    "now-start": "micro-bot -d https://dou-event-bot.asamuraicartel.now.sh",
     "test": "npm run lint"
   },
   "engines": {
