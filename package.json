@@ -8,8 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "supervisor -x micro-bot index.js",
-    "deploy": "now -e BOT_TOKEN='750513030:AAExJh6CyQjpmscztITg1uF_dJ56ugK3PPQ'",
+    "dev": "supervisor -x micro-bot -t 770736296:AAEwfTu287O-1fbdFhcSvIPGnGKvE_sLnk4 index.js",
+    "deploy": "now --public -e BOT_TOKEN='750513030:AAExJh6CyQjpmscztITg1uF_dJ56ugK3PPQ'",
     "start": "micro-bot -t 770736296:AAEwfTu287O-1fbdFhcSvIPGnGKvE_sLnk4 index.js",
     "now-start": "micro-bot -d https://dou-event-bot.asamuraicartel.now.sh",
     "test": "npm run lint"
