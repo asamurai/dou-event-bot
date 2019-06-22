@@ -32,4 +32,7 @@ bot.start((ctx) => {
 
 bot.hears(/[\s\S]+/g, botActionsListener);
 
+// Bot cant run with now v2.0 
+// See details: https://github.com/telegraf/micro-bot/issues/22
+
 module.exports = bot;
